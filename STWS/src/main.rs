@@ -6,6 +6,6 @@ fn main() {
     for stream in listener.incoming() {
         let stream = stream.unwrap();
 
-        print!("Connection established!");
+        println!("Connection established!");
     }
 }
